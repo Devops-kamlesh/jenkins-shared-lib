@@ -1,4 +1,4 @@
-def call(stringe stageName){
+def call(string stageName){
 
     if ( "${stageName}" == "build")
     {
