@@ -1,10 +1,10 @@
 def call(stringe stageName){
 
-    if ( "${stageName}"=="build")
+    if ( "${stageName}" == "build")
     {
         sh 'mvn clean package'
     }
-    else if ( "${stageName}"== "SonarQube Report")
+    else if ( "${stageName}" == "SonarQube Report")
     {
         sh 'mvn sonar:sonar'
     }
